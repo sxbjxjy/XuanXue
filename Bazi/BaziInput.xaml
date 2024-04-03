@@ -5,28 +5,30 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Bazi"
         mc:Ignorable="d"
-        Title="八字" Height="450" Width="800">
+        Title="八字" Height="600" Width="1000">
     <Grid ShowGridLines="True">
-        <Grid.RowDefinitions>
-            <RowDefinition Height="50"/>
-            <RowDefinition/>
-            <RowDefinition/>
-        </Grid.RowDefinitions>
+        <Grid ShowGridLines="True" Height="450" Width="800" VerticalAlignment="Bottom" HorizontalAlignment="Center" Background="#FFF3F3F3">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="50"/>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
 
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition/>
-            <ColumnDefinition/>
-            <ColumnDefinition/>
-            <ColumnDefinition/>
-        </Grid.ColumnDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
 
-        <TextBlock Grid.Row="0" Grid.Column="0"
+            <TextBlock Grid.Row="0" Grid.Column="0"
             Text="年柱" IsEnabled="False" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="24"/>
-        <TextBlock Grid.Row="0" Grid.Column="1"
+            <TextBlock Grid.Row="0" Grid.Column="1"
             Text="月柱" IsEnabled="False" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="24"/>
-        <TextBlock Grid.Row="0" Grid.Column="2"
+            <TextBlock Grid.Row="0" Grid.Column="2"
             Text="日柱" IsEnabled="False" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="24"/>
-        <TextBlock Grid.Row="0" Grid.Column="3"
+            <TextBlock Grid.Row="0" Grid.Column="3"
             Text="时柱" IsEnabled="False" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="24"/>
+        </Grid>
     </Grid>
 </Window>
